@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<body style="background-color:rgb(34, 177, 70);"></body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Electronics - Created by Gayantha Lochana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .contact-info {
+            background-color: #f9f9f9;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery img, .gallery video {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .rating {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .rating span {
+            font-size: 2rem;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: transform 0.2s;
+        }
+        .rating span:hover {
+            transform: scale(1.3);
+        }
+        .rating span.active {
+            color: gold;
+        }
+        .message-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .message-section textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            resize: none;
+        }
+        .message-section button {
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .message-section button:hover {
+            background-color: #135ab8;
+        }
+        .creator-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .creator-section img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        .creator-section h3 {
+            margin-top: 10px;
+        }
+        .whatsapp-button, .facebook-button {
+            background-color: #25d366;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+        .whatsapp-button img, .facebook-button img {
+            width: 20px;
+            margin-right: 10px;
+        }
+        .facebook-button {
+            background-color: #4267B2;
+            
+        }
+        .youtube-button {
+            background-color: #ff0b0b; 
+            width: 40px;
+            margin-right: 40px;   
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Alpha Electronics</h1>
+        <p>Phone: <a href="tel:+94723283588">+94 723283588</a> | Email: <a href="sujithelectro@gmail.com">sujithelectro@gmail.com</a></p>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+        <p>Other Contact Numbers: +94 723283588 | +94 751168207</p>
+        <p>Address: Srilanka,Kurunegala,Rantetikanda,panagamuwa</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Gallery Section -->
+        <h2>Explore Our Products</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Product Image 1">
+            <img src="image2.jpg" alt="Product Image 2">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Rating Section -->
+        <div class="rating">
+            <h2>Rate Us!</h2>
+            <span data-value="1">😠</span>
+            <span data-value="2">😕</span>
+            <span data-value="3">😐</span>
+            <span data-value="4">😊</span>
+            <span data-value="5">😍</span>
+        </div>
+
+        <!-- Message Section -->
+        <div class="message-section">
+            <h2>Send Us a Message</h2>
+            <textarea rows="5" placeholder="Type your message here..."></textarea>
+            <br>
+            <button>Send Message</button>
+        </div>
+
+        <!-- Creator Section -->
+        <div class="creator-section">
+            <img src="image4.jpg" alt="Gayantha Lochana">
+            <h3>Website Created by Gayantha Lochana</h3>
+        </div>
+
+        <!-- Social Media Buttons -->
+        <div class="social-buttons" style="text-align: center; margin-top: 20px;">
+            <a href="https://wa.me/723283588" class="whatsapp-button" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                WhatsApp Chat
+            </a>
+            <a href="https://web.facebook.com/sujith.shantha.5/" class="facebook-button" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                Facebook Chat
+
+            </a>
+                <a href="https://www.youtube.com/channel/UCvC-EJB0QXr3mI9sY4quR5g/videos" class="youtube-button" target="_blank">
+                    <img src="https://en.wikipedia.org/wiki/YouTube_(YouTube_channel)#/media/File:YouTube_social_white_square_(2017).svg" alt="YouTube">
+                    YouTube chat
+
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Rating system functionality
+        const ratingSpans = document.querySelectorAll('.rating span');
+        ratingSpans.forEach(span => {
+            span.addEventListener('click', function () {
+                ratingSpans.forEach(s => s.classList.remove('active'));
+                this.classList.add('active');
+                const rating = this.getAttribute('data-value');
+                console.log(`You rated: ${rating} stars`);
+            });
+        });
+
+        // Message functionality (placeholder for further logic)
+        const messageButton = document.querySelector('.message-section button');
+        const textarea = document.querySelector('.message-section textarea');
+        messageButton.addEventListener('click', function () {
+            const message = textarea.value;
+            if (message.trim()) {
+                alert('Message sent: ' + message);
+                textarea.value = '';
+            } else {
+                alert('Please enter a message before sending.');
+            }
+        });
+    </script>
+
+
+   <div class="footer-rights">
+      
+  <p>&copy; 2024 Alpha Electronic. All Rights Reserved.</p>
+    </div>
+
+  
+  </footer>
+
+</body>
+</html>
